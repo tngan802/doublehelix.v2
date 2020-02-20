@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mercedes Content and Creative Packages</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <script src="https://unpkg.com/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <!--Everything below this is the loading icon-->
+  <script>
+  //paste this code under the head tag or in a separate js file.
+  // Wait for window load
+  $(window).load(function() {
+  // Animate loader off screen
+  $(".se-pre-con").fadeOut("slow");;
+  });
+  </script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+
+    <!--Everything above this is the loading icon-->
+    <link rel="stylesheet" type="text/css" href="./css/mobile.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147655282-1"></script> 
+  <script>
+	$(window).load(function() {
+	// Animate loader off screen
+	$(".se-pre-con").fadeOut("slow");;
+	});
+  </script>  
+</head>
+
+<body>
+
+  <div class="se-pre-con"></div>
+  <div class="popover bottom in" role="tooltip" id="popover">
+    <div class="arrow" style="top: 50%;"></div>
+    <div class="popover-content"></div>
+  </div>
+
+<div class="w-25 fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu" style="height: 1200px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse fixed-top w-25" id="navbarSupportedContent">
+          <script src="../scripts/nav-bar-interior.js?id=index" id="nav-bar"></script>
+        <script type="text/javascript" src="../scripts/navSearch.js"></script>
+      </div>
+    </nav>
+</div>
+<div class="w-50 container">
+    <div class="legend col-12">
+      <div class="row">
+              <div class="col-12">
+                  <div class="accordionBrand" id="accordionExample">
+                      <div class="card bg-primary" id="legend">
+                          <script src="../scripts/legend-bar-managed-cc.js?id=index" id="legend-bar"></script>
+                      </div>
+                  </div><!--end accordionBrand-->
+              </div><!--End col-12-->
+          </div><!--End row-->
+    </div><!--end legend-->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <div id="content"></div>
+  <div class="spinner-border text-primary d-flex justify-content-center mt-2" style="margin-left:auto; margin-right:auto; position: relative; top: 100px;" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+
+  <script id="test-template" type="text/x-handlebars-template"><!--This duplicates the entry below-->
+    <div class="entry" style="display: block; position:relative;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+
+                    <div class="accordionBrand" id="accordionBrandExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link col-12 collapsedTrigger" type="button">
+                                  {{product}}
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div class="collapsedContainer" style="display: none;" aria-labelledby="headingOne">
+                          <div class="card-body">
+                              <nav aria-label="breadcrumb">
+                                  <ol class="breadcrumb">
+                                    <li class="breadcrumb-item text-dark"><strong>{{franchise}}</strong></li>
+                                    <li class="breadcrumb-item text-dark">Program Manager: <span class="{{pmClass}}">{{pm}} </span>E-mail: <a href="{{pmEmail}}"><span class="{{pmEmailClass}}">{{pmEmail}}</a></span></li>
+                                    <li class="breadcrumb-item text-dark">Brand Advisor: <span class="{{baClass}}">{{ba}} </span>E-mail: <a href="{{baEmail}}"><span class="{{baEmailClass}}">{{baEmail}}</a></span></li>
+                                    <li class="breadcrumb-item text-primary" aria-current="page"><a href="{{packaging}}" target="_blank">Marketing Packaging and Pricing</a></li>
+                                  </ol>
+                                </nav>
+                                  <h6 class="ml-4 text-center">{{comments}}</h6>
+
+                              <div class="card-group">	
+                                <div class="card-group">
+                                  <div class="card"><div class="text-center bg-light pt-2 pb-2"><strong>{{base}} Package</strong></div>
+                                  <div class="card-body {{baseClass}}">
+                                    <p class="card-text"><strong>{{baseDisc}}</strong></p>
+                                    <p class="card-text"><small class="text-black"><strong>Consult <a href="{{packaging}}" class="{{packagingClass}} text-danger" target="blank">Collaterate</a> for most current and up to date information</strong></small></p></div></div>	
+                                  
+                                  <div class="card"><div class="text-center bg-light pt-2 pb-2"><strong>{{core}} Package</strong></div>
+                                  <div class="card-body {{coreClass}}">
+                                    <p class="card-text"><strong>{{coreDisc}}</strong></p>
+                                    <p class="card-text"><small class="text-black"><strong>Consult <a href="{{packaging}}" class="{{packagingClass}} text-danger" target="blank">Collaterate</a> for most current and up to date information</strong></small></p></div></div>
+                                  
+                                  <div class="card"><div class="text-center bg-light pt-2 pb-2"><strong>{{premier}} Package</strong></div>
+                                  <div class="card-body {{premierClass}}">
+                                    <p class="card-text"><strong>{{premierDisc}}</strong></p>
+                                    <p class="card-text"><small class="text-black"><strong>Consult <a href="{{packaging}}" class="{{packagingClass}} text-danger" target="blank">Collaterate</a> for most current and up to date information</strong></small></p></div></div>
+                                </div>
+
+                          </div><!--End card card-body-->
+                        </div><!--End Collapsed Container-->
+                    </div><!--End Card-->
+                  </div><!--End Accordian-->
+                </div><!--End collapse col-12"-->
+              </div><!--End Row-->
+            </div><!--End Container-->
+          </div><!--End Entry-->
+
+    </script>
+
+  <!-- Don't need jQuery for Tabletop, but using it for this example -->
+  <script type="text/javascript" src="../scripts/handlebars.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.js"></script>
+  <script type="text/javascript" src="../scripts/tabletop.js"></script>
+  <script type="text/javascript" src="../scripts/dropDown.js"></script>
+  <script type="text/javascript">
+    var public_spreadsheet_url = 'https://docs.google.com/a/dealer.com/spreadsheets/d/1OjeKxVjii2wmm4xl_T7ZijVa0pzfFZ-eyajij7DTgxo/pub?hl=en_US&hl=en_US&hl=en_US&output=html';
+
+    $(document).ready(function () {
+      Tabletop.init({
+        key: public_spreadsheet_url,
+        callback: showInfo,
+        parseNumbers: true
+      });
+    });
+
+    function showInfo(data, tabletop) {
+      var source = $("#test-template").html();
+      var template = Handlebars.compile(source);
+
+      $.each(tabletop.sheets("managedCCPackage").all(), function (i, cat) {
+        console.log(cat);
+        var html = template(cat);
+        $("#content").append(html);
+      });
+      $('.collapsedTrigger').on('click', function (event) {
+        hideAllaccordionBrand();
+        var parent = $(this).closest('.accordionBrand');
+        if (parent) {
+          var collapsed = parent.find('.collapsedContainer');
+          if (collapsed.css('display') === 'none') {
+            collapsed.slideDown(500);
+          }
+        }
+      });
+
+    }
+
+    var hideAllaccordionBrand = function () {
+      var accordionBrands = $('.collapsedContainer');
+      if (accordionBrands && accordionBrands.length > 0) {
+        accordionBrands.each(function (index) {
+          var display = $(this).css('display');
+          if (!display || display.length === 0 || display === 'block') {
+            $(this).slideUp(500);
+          }
+        });
+      }
+    }
+  </script>
+</body>
+
+</html>

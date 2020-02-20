@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <title>DNA Features</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <script src="https://unpkg.com/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <!--Everything below this is the loading icon-->
+    <script>
+    //paste this code under the head tag or in a separate js file.
+    // Wait for window load
+    $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+    });
+    </script>
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+  
+  
+    <!--Everything above this is the loading icon-->
+    <link rel="stylesheet" type="text/css" href="./css/mobile.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147655282-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-147655282-1');
+    </script>
+</head>
+  
+  <body>
+    
+    <div class="se-pre-con"></div>
+    <div class="popover bottom in" role="tooltip" id="popover">
+      <div class="arrow" style="top: 50%;"></div>
+      <div class="popover-content"></div>
+    </div>
+
+    <div class="w-25 fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu" style="height: 1200px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse fixed-top w-25" id="navbarSupportedContent">
+            <script src="./scripts/nav-bar.js?id=index" id="nav-bar"></script>
+        </div>
+      </nav>
+  </div>
+  <div class="w-50 container">
+      <div class="legend col-12">
+          <div class="row">
+                  <div class="col-12">
+                      <div class="accordion" id="accordionExample">
+                          <div class="card bg-primary">
+                          <div class="card-header" id="headingOne">
+                              <h2 class="mb-0">
+                              <button class="btn btn-link col-12 collapsedTrigger text-light font-weight-bold" type="button">
+                                  Legend
+                              </button>
+                              </h2>
+                          </div>
+                          <div class="collapsedContainer" style="display: none;" aria-labelledby="headingOne">
+                              <div class="card-body bg-light">
+                                  <nav aria-label="breadcrumb">
+                                      <ol class="breadcrumb">
+                                        <li class="breadcrumb-item text-dark">DNA Features</li>
+                                        <li class="breadcrumb-item text-primary">Legend</li>
+                                      </ol>
+                                  </nav>
+                                     <ul>
+                                       <li><span class="text-warning font-weight-bold">Yellow</span> Tabs = Deprecated Feature</li>
+                                       <li><span class="text-muted font-weight-bold">Gray</span> Tabs = Available Feature</li>
+                                       <li><span class="text-success font-weight-bold">Green</span> User = Can Configure</li>
+                                       <li><span class="text-danger font-weight-bold">Red</span> User = Can't Configure</li>
+                                       <li><span class="text-muted font-weight-bold">Grey</span> User = Only appears in Deprecated Feature(s)</li>
+                                     </ul>
+      
+                              </div><!--End card card-body-->
+                          </div><!--Collapsed Container-->
+                          </div>
+      
+                      </div>
+                  </div><!--End card card-body-->
+              </div><!--End collapse col-12" id="{{class}}-->
+      </div>
+  
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div id="content"></div>
+    <div class="spinner-border text-primary d-flex justify-content-center mt-2" style="margin-left:auto; margin-right:auto; position: relative; top: 100px;" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  
+    <script id="test-template" type="text/x-handlebars-template"><!--This duplicates the entry below-->
+              <div class="entry" style="display: block; position:relative;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+
+                      <div class="accordion" id="accordionExample">
+                          <div class="card" style="background-color:{{btnColor}}">
+                            <div class="card-header" id="headingOne">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link col-12 collapsedTrigger" type="button" style="color:#000000; font-weight: 600;">
+                                  {{product}}
+                                </button>
+                              </h2>
+                            </div>
+                            <div class="collapsedContainer" style="display: none;" aria-labelledby="headingOne">
+                              <div class="card-body bg-light">
+                                  <nav aria-label="breadcrumb">
+                                      <ol class="breadcrumb">
+                                        <li class="breadcrumb-item text-dark">Control Center</li>
+                                        <li class="breadcrumb-item text-dark">{{dashboard}}</li>
+                                        <li class="breadcrumb-item text-primary" aria-current="page"><em>{{product}}</em></li>
+                                      </ol>
+                                    </nav>
+                                    <p class="card-text col-12">
+                                      <h5 class="ml-4">Product Description</h5 class="ml-4">
+                                      <p class="container col-10 card-text">
+                                        {{notes}}
+                                      </p>
+                                    </p>
+
+                                    <h5 class="ml-4">Required DNA Feature(s)</h5>
+                                      <p class="container col-10 {{dnaPermissions001Class}}">{{dnaPermissions001}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions002}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions003}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions004}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions005}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions006}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions007}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions008}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions009}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions010}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions011}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions012}}</p>
+                                      <p class="container col-10 text-primary">{{dnaPermissions013}}</p>
+
+                                    <h5 class="ml-4">Sharepoint Link</h5>
+                                    <p class="container col-10"><a class="{{linkDescriptionclass}} {{fuelLinkClass}}" href="{{fuelLink}}" target="blank">{{linkDescription}}</a></p>
+                              </div><!--End card card-body-->
+                            </div>
+                          </div>
+
+                        </div>
+                  </div><!--End card card-body-->
+                </div><!--End collapse col-12" id="{{class}}-->
+                </div><!--End Row-->
+              </div><!--End Container-->
+            </div><!--End Entry-->
+
+    </script>
+
+  <!-- Don't need jQuery for Tabletop, but using it for this example -->
+  <script type="text/javascript" src="./scripts/handlebars.js"></script>
+  <script type="text/javascript" src="./scripts/jquery.js"></script>
+  <script type="text/javascript" src="./scripts/tabletop.js"></script>
+  <script type="text/javascript" src="./scripts/dropDown.js"></script>
+  <script type="text/javascript">
+    var public_spreadsheet_url = 'https://docs.google.com/a/dealer.com/spreadsheets/d/1oHFibPwVV44St1mgLDIcVsPVniH9ljLfdHg5t4Sr6qY/pub?hl=en_US&hl=en_US&hl=en_US&output=html';
+
+    $(document).ready(function () {
+      Tabletop.init({
+        key: public_spreadsheet_url,
+        callback: showInfo,
+        parseNumbers: true
+      });
+    });
+
+    function showInfo(data, tabletop) {
+      var source = $("#test-template").html();
+      var template = Handlebars.compile(source);
+
+      $.each(tabletop.sheets("ccPermissionsMain").all(), function (i, cat) {
+        console.log(cat);
+        var html = template(cat);
+        $("#content").append(html);
+      });
+      $('.collapsedTrigger').on('click', function (event) {
+        hideAllAccordians();
+        var parent = $(this).closest('.accordion');
+        if (parent) {
+          var collapsed = parent.find('.collapsedContainer');
+          if (collapsed.css('display') === 'none') {
+            collapsed.slideDown(250);
+          }
+        }
+      });
+      $('[data-toggle="popover"]').on('mouseenter', function () {
+        var popper = $('#popover');
+        popper.show()
+        var data = $(this).data();
+        popper.css('z-index', 9999);
+        popper.css('padding', 10);
+        popper.find('.popover-content').text(data.content);
+        var x = new Popper($(this), popper);
+      })
+
+      $('[data-toggle="popover"]').on('mouseleave', function () {
+        var popper = $('#popover');
+        popper.hide()
+        popper.find('.popper-content').text('');
+      });
+
+
+    }
+
+    var hideAllAccordians = function () {
+      var accordions = $('.collapsedContainer');
+      if (accordions && accordions.length > 0) {
+        accordions.each(function (index) {
+          var display = $(this).css('display');
+          if (!display || display.length === 0 || display === 'block') {
+            $(this).slideUp(250);
+          }
+        });
+      }
+    }
+
+    $('[data-toggle]').popover();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+cd
+E:
+ls
+Projects/
+ls
+cd bootstrap/
+git add .
+git commit -m bootstrap/
