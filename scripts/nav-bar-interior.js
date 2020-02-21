@@ -156,13 +156,13 @@ $(function () {
     bar += '</li>';
 
     bar += '<li class="nav-item">';
-    bar += '<a class="nav-link" href="../about.htm">About<span class="sr-only"></span></a>';
-    bar += '</li>';
-
-    bar += '<li class="nav-item">';
     bar += '<a class="nav-link" href="https://v9-docs.apps.dealer.com/#/">V9 Widget Documentation<span class="sr-only"></span></a>';
     bar += '</li>';
     
+    bar += '<li class="nav-item">';
+    bar += '<a class="nav-link" href="../about.htm">About<span class="sr-only"></span></a>';
+    bar += '</li>';
+
     bar += '<li class="nav-item">';
     bar += '<a class="nav-link" href="mailto:tommy.ngan@coxautoinc.com">Contact<span class="sr-only"></span></a>';
     bar += '</li>';
