@@ -6,13 +6,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+  
   <script src="https://unpkg.com/popper.js@1.14.7/dist/umd/popper.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
- <!--Everything below this is the loading icon-->
- <script>
+  <!--Everything below this is the loading icon-->
+  <script>
   //paste this code under the head tag or in a separate js file.
   // Wait for window load
   $(window).load(function() {
@@ -20,52 +20,95 @@
   $(".se-pre-con").fadeOut("slow");;
   });
   </script>
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-  <script>
-  //paste this code under the head tag or in a separate js file.
-	// Wait for window load
-	$(window).load(function() {
-	// Animate loader off screen
-	$(".se-pre-con").fadeOut("slow");;
-	});
-  </script>
 
+
+  <!--Everything above this is the loading icon-->
   <link rel="stylesheet" type="text/css" href="./css/mobile.css">
-    
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147655282-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-147655282-1');
+  </script>
 </head>
 
-<body>  
+<body>
+  
   <div class="se-pre-con"></div>
   <div class="popover bottom in" role="tooltip" id="popover">
     <div class="arrow" style="top: 50%;"></div>
     <div class="popover-content"></div>
   </div>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand text-primary" href="#">DoubleHelix</a>
+<div class="w-25 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu" style="height: 1200px;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-collapse collapse fixed-top w-25" id="navbarSupportedContent">
           <script src="./scripts/nav-bar.js?id=index" id="nav-bar"></script>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" id="navInput" type="search" placeholder="Find a DNA Feature.." aria-label="Search">
-        </form>
-        <script type="text/javascript" src="./scripts/navSearch.js"></script>
       </div>
     </nav>
-
+</div>
+<div class="w-50 container">
+    <div class="legend col-12">
+        <div class="row">
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card bg-primary">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link col-12 collapsedTrigger text-light font-weight-bold" type="button">
+                                About the Developer
+                            </button>
+                            </h2>
+                        </div>
+                        <div class="collapsedContainer" style="display: none;" aria-labelledby="headingOne">
+                            <div class="card-body bg-light">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                      <li class="breadcrumb-item text-dark">Tommy Ngan</li>
+                                      <li class="breadcrumb-item text-primary">Support Analyst</li>
+                                      <li class="breadcrumb-item"><a href="mailto:tommy.ngan@coxautoinc.com" class="text-info">Feedback or Requests?</a></li>
+                                    </ol>
+                                </nav>
+                                   <div>
+                                     <p>
+                                       One late spring morning day in 2018, Tommy's manager asked him to see how DNA permissions and features worked and who had access to them.  Initially the project began as an Excel speadsheet, 
+                                       researching through Fuel for documentation, and asking Help Desk for the various permissions for each end user (seniors, non seniors, and PSS). However Tommy wondered if it would be 
+                                       possible to let anyone see the list of DNA permissions, what they did, and how they all relate. From the fall of 2018 to sping of 2019, many hours in Barnes and Noble learning bootstrap,
+                                       and consuming gallons of coffee, Tommy developed DoubleHelix.
+                                     </p>
+                                     <p>
+                                       If you have feedback or requests, you can send Tommy an email using the link above or using the Comments tool at the bottom of Sharepoint (those will be public).
+                                     </p>
+                                     <p>
+                                       Have a super great day.
+                                     </p>
+                                    </div>
+    
+                            </div><!--End card card-body-->
+                        </div><!--Collapsed Container-->
+                        </div>
+    
+                    </div>
+                </div><!--End card card-body-->
+            </div><!--End collapse col-12" id="{{class}}-->
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <div id="content"></div>
-  <div class="spinner-border text-primary d-flex justify-content-center mt-2" style="margin-left:auto; margin-right:auto; position: relative; top: 100px;" role="status">
-    <span class="sr-only">Loading...</span>
-  </div>
+</div>
 
   <script id="test-template" type="text/x-handlebars-template"><!--This duplicates the entry below-->
-            <div class="entry" style="display: block; position:relative; top:60px;">
+            <div class="entry" style="display: block; position:relative;">
               <div class="container">
                 <div class="row">
                   <div class="col-12">
