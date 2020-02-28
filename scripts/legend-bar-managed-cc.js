@@ -3,7 +3,7 @@ $(function () {
     bar += '<div class="card-header" id="headingOne">';
     bar += '<h2 class="mb-0">';
     bar += '<button class="btn btn-link col-12 collapsedTrigger text-light font-weight-bold" type="button">';
-    bar += 'Legend';
+    bar += 'General Information';
     bar += '</button>';
     bar += '</h2>';
     bar += '</div>';
@@ -12,14 +12,11 @@ $(function () {
     bar += '<nav aria-label="breadcrumb">';
     bar += '<ol class="breadcrumb">';
     bar += '<li class="breadcrumb-item text-dark">Managed Content & Creative Package</li>';
-    bar += '<li class="breadcrumb-item text-primary">Legend</li>';
+    bar += '<a class="breadcrumb-item text-primary" href="http://marketing.dealer.com/collateral/";>Link to Collateral</a></li>';
     bar += '</ol>';
     bar += '</nav>';
     bar += '<ul>';
-    bar += '<li><span class="text-primary font-weight-bold">Blue</span> Cards = Available for this Package</li>';
-    bar += '<li><span class="text-success font-weight-bold">Green</span> Cards =Available for this Package</li>';
-    bar += '<li><span class="text-warning font-weight-bold">Yellow</span> Cards =Available for this Package</li>';
-    bar += '<li><span class="text-muted font-weight-bold">Grey</span> Cards = Available for this Package</li>';
+    bar += '<p class="text-dark";>Here is some general information regarding Managed Content and Creative. The information in the tabs might not be up to date, so please double check with the Collateral link for the most up to date information.</p>';
     bar += '</ul>';
     bar += '</div><!--End card card-body-->';
     bar += '</div><!--Collapsed Container-->';
