@@ -16,7 +16,7 @@ $(function () {
     bar += '</ol>';
     bar += '</nav>';
     bar += '<ul>';
-    bar += '<p class="text-dark";>Here is some general information regarding Website Information. The information in the tabs might not be up to date, so please double check with the Collateral link for the most up to date information.</p>';
+    bar += '<p class="text-dark";>Here is some general information regarding Website Package. The information in the tabs might not be up to date, so please double check with the Collateral link for the most up to date information.</p>';
     bar += '<li><span class="text-primary font-weight-bold">Blue</span> Cards = This Product is available for this Package</li>';
     bar += '<li><span class="text-success font-weight-bold">Green</span> Cards = This Product is available for this Package</li>';
     bar += '<li><span class="text-warning font-weight-bold">Yellow</span> Cards = This Product is available for this Package</li>';
