@@ -6,11 +6,11 @@ $(function () {
     bar += '<a class="nav-link text-wrap" href="../dna-features.htm">DNA Features<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item active">';
+    bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="../cc-products.htm">CC Products<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item inactive dropdown">';
+    bar += '<li class="nav-item active dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed Content & Creative Package';
     bar += '</a>';

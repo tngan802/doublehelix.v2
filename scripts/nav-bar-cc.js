@@ -2,15 +2,15 @@ $(function () {
     var bar='';
     bar += '<ul class="nav flex-column nav-pills pl-5 pt-5">';
     bar += '<span class="text-primary font-weight-bold">DoubleHelix</span>';
-    bar += '<li class="nav-item">';
-    bar += '<a class="nav-link text-wrap" href="./dna-features.htm">DNA Features<span class="sr-only"></span></a>';
+    bar += '<li class="nav-item inactive">';
+    bar += '<a class="nav-link inactive text-wrap" href="./dna-features.htm">DNA Features<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item">';
+    bar += '<li class="nav-item active">';
     bar += '<a class="nav-link text-wrap" href="./cc-products.htm">CC Products<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item dropdown">';
+    bar += '<li class="nav-item inactive dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed Content & Creative Package';
     bar += '</a>';
@@ -47,7 +47,7 @@ $(function () {
     bar += '</div>';
     bar += '</li>';
 
-    bar += '<li class="nav-item dropdown">';
+    bar += '<li class="nav-item inactive dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed SEO Package';
     bar += '</a>';
@@ -84,7 +84,7 @@ $(function () {
     bar += '</div>';
     bar += '</li>';
 
-    bar += '<li class="nav-item dropdown">';
+    bar += '<li class="nav-item inactive dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed Social Package';
     bar += '</a>';
@@ -121,7 +121,7 @@ $(function () {
     bar += '</div>';
     bar += '</li>';
 
-    bar += '<li class="nav-item dropdown">';
+    bar += '<li class="nav-item inactive dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Website Package</a>';
     bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 600px; overflow: scroll;">';
     bar += '<a class="dropdown-item" href="./website-package/acura.htm">Acura</a>';
@@ -155,15 +155,15 @@ $(function () {
     bar += '</div>';
     bar += '</li>';
 
-    bar += '<li class="nav-item">';
+    bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="https://v9-docs.apps.dealer.com/#/" target="_blank">V9 Widget Documentation<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item">';
+    bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="./about.htm">About<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item">';
+    bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="mailto:tommy.ngan@coxautoinc.com">Contact<span class="sr-only"></span></a>';
     bar += '</li>';
     bar += '</ul>';
