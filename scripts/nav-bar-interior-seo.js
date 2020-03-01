@@ -47,7 +47,7 @@ $(function () {
     bar += '</div>';
     bar += '</li>';
 
-    bar += '<li class="nav-item inactive dropdown">';
+    bar += '<li class="nav-item active dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed SEO Package';
     bar += '</a>';
@@ -159,7 +159,7 @@ $(function () {
     bar += '<a class="nav-link text-wrap" href="https://v9-docs.apps.dealer.com/#/" target="_blank">V9 Widget Documentation<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item active">';
+    bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="../about.htm">About<span class="sr-only"></span></a>';
     bar += '</li>';
 

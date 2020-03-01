@@ -6,7 +6,7 @@ $(function () {
     bar += '<a class="nav-link text-wrap" href="../dna-features.htm">DNA Features<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item inactive">';
+    bar += '<li class="nav-item active">';
     bar += '<a class="nav-link text-wrap" href="../cc-products.htm">CC Products<span class="sr-only"></span></a>';
     bar += '</li>';
 
@@ -159,7 +159,7 @@ $(function () {
     bar += '<a class="nav-link text-wrap" href="https://v9-docs.apps.dealer.com/#/" target="_blank">V9 Widget Documentation<span class="sr-only"></span></a>';
     bar += '</li>';
 
-    bar += '<li class="nav-item active">';
+    bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="../about.htm">About<span class="sr-only"></span></a>';
     bar += '</li>';
 
