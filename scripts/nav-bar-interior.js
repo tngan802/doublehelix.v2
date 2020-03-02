@@ -166,6 +166,11 @@ $(function () {
     bar += '<li class="nav-item">';
     bar += '<a class="nav-link" href="mailto:tommy.ngan@coxautoinc.com">Contact<span class="sr-only"></span></a>';
     bar += '</li>';
+
+    bar += '<div class="form container">';
+    bar += '<form class="my-2 my-lg-0"><input class="form-control mr-sm-2" id="navInput" type="search" placeholder="Find a product.." aria-label="Search"></form>';
+    bar += '</div>';
+    
     bar += '</ul>';
     
     $("#navbarSupportedContent").html(bar);
