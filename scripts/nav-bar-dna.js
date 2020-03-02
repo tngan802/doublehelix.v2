@@ -14,7 +14,7 @@ $(function () {
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed Content & Creative Package';
     bar += '</a>';
-    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 330px;">';
+    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 105%;">';
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/acura.htm">Acura</a>';
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/audi.htm">Audi</a>';
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/bmw.htm">BMW</a>';
@@ -51,7 +51,7 @@ $(function () {
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed SEO Package';
     bar += '</a>';
-    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 330px;">';
+    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 105%;">';
     bar += '<a class="dropdown-item" href="./managed-seo-package/acura.htm">Acura</a>';
     bar += '<a class="dropdown-item" href="./managed-seo-package/audi.htm">Audi</a>';
     bar += '<a class="dropdown-item" href="./managed-seo-package/bmw.htm">BMW</a>';
@@ -88,7 +88,7 @@ $(function () {
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed Social Package';
     bar += '</a>';
-    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 330px;"> ';
+    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 105%;"> ';
     bar += '<a class="dropdown-item" href="./managed-social-package/acura.htm">Acura</a>';
     bar += '<a class="dropdown-item" href="./managed-social-package/audi.htm">Audi</a>';
     bar += '<a class="dropdown-item" href="./managed-social-package/bmw.htm">BMW</a>';
@@ -123,7 +123,7 @@ $(function () {
 
     bar += '<li class="nav-item inactive dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Website Package</a>';
-    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 330px; ">';
+    bar += '<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 400px; overflow: scroll; top: -120px; left: 105%; ">';
     bar += '<a class="dropdown-item" href="./website-package/acura.htm">Acura</a>';
     bar += '<a class="dropdown-item" href="./website-package/audi.htm">Audi</a>';
     bar += '<a class="dropdown-item" href="./website-package/bmw.htm">BMW</a>';
