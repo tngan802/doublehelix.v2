@@ -41,7 +41,7 @@ $(function () {
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/sne.htm">Subaru (SNE)</a>';
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/toyota.htm">Toyota</a>';
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/toyota-gsm.htm">GS Marketing - Toyota (GSM)</a>';
-    bar += '<a class="dropdown-item" href="./managed-content-creative-package/trader.htm">Trader</a>';
+    bar += '<!--<a class="dropdown-item" href="./managed-content-creative-package/trader.htm">Trader</a>-->';
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/volkswagen.htm">Volkswagen</a>';
     bar += '<a class="dropdown-item" href="./managed-content-creative-package/volvo.htm">Volvo</a>';
     bar += '</div>';
@@ -78,7 +78,7 @@ $(function () {
     bar += '<a class="dropdown-item" href="./managed-seo-package/sne.htm">Subaru (SNE)</a>';
     bar += '<a class="dropdown-item" href="./managed-seo-package/toyota.htm">Toyota</a>';
     bar += '<a class="dropdown-item" href="./managed-seo-package/toyota-gsm.htm">GS Marketing - Toyota (GSM)</a>';
-    bar += '<a class="dropdown-item" href="./managed-seo-package/trader.htm">Trader</a>';
+    bar += '<!--<a class="dropdown-item" href="./managed-seo-package/trader.htm">Trader</a>-->';
     bar += '<a class="dropdown-item" href="./managed-seo-package/volkswagen.htm">Volkswagen</a>';
     bar += '<a class="dropdown-item" href="./managed-seo-package/volvo.htm">Volvo</a>';
     bar += '</div>';
@@ -115,7 +115,7 @@ $(function () {
     bar += '<a class="dropdown-item" href="./managed-social-package/sne.htm">Subaru (SNE)</a>';
     bar += '<a class="dropdown-item" href="./managed-social-package/toyota.htm">Toyota</a>';
     bar += '<a class="dropdown-item" href="./managed-social-package/toyota-gsm.htm">GS Marketing - Toyota (GSM)</a>';
-    bar += '<a class="dropdown-item" href="./managed-social-package/trader.htm">Trader</a>';
+    bar += '<!--<a class="dropdown-item" href="./managed-social-package/trader.htm">Trader</a>-->';
     bar += '<a class="dropdown-item" href="./managed-social-package/volkswagen.htm">Volkswagen</a>';
     bar += '<a class="dropdown-item" href="./wmanaged-socialebsite-package/volvo.htm">Volvo</a>';
     bar += '</div>';
@@ -149,7 +149,7 @@ $(function () {
     bar += '<a class="dropdown-item" href="./website-package/sne.htm">Subaru (SNE)</a>';
     bar += '<a class="dropdown-item" href="./website-package/toyota.htm">Toyota</a>';
     bar += '<a class="dropdown-item" href="./website-package/toyota-gsm.htm">GS Marketing - Toyota (GSM)</a>';
-    bar += '<a class="dropdown-item" href="./website-package/trader.htm">Trader</a>';
+    bar += '<!--<a class="dropdown-item" href="./website-package/trader.htm">Trader</a>-->';
     bar += '<a class="dropdown-item" href="./website-package/volkswagen.htm">Volkswagen</a>';
     bar += '<a class="dropdown-item" href="./website-package/volvo.htm">Volvo</a>';
     bar += '</div>';
@@ -172,6 +172,7 @@ $(function () {
     bar += '</div>';
     
     bar += '</ul>';
+    
     $("#navbarSupportedContent").html(bar);
  
     var id = getValueByName("id");
