@@ -15,12 +15,12 @@ $(function () {
     bar += '<a class="breadcrumb-item text-primary" href="http://marketing.dealer.com/collateral/";>Link to Collateral</a></li>';
     bar += '</ol>';
     bar += '</nav>';
-    bar += '<ul>';
-    bar += '<p class="text-dark";>Here is some general information regarding Managed Content and Creative. The information in the tabs might not be up to date, so please double check with the Collateral link for the most up to date information.</p>';
-    bar += '<li><span class="text-primary font-weight-bold">Blue</span> Cards = This Product is available for this Package</li>';
-    bar += '<li><span class="text-success font-weight-bold">Green</span> Cards = This Product is available for this Package</li>';
-    bar += '<li><span class="text-warning font-weight-bold">Yellow</span> Cards = This Product is available for this Package</li>';
-    bar += '<li><span class="text-dark font-weight-bold">White</span> Cards = This Product is unavailable for this Package</li>';
+    bar += '<p class="text-dark";>The five primary Customer Service roles are: PSS (Product Support Specialist), Sernior Support Analyst, Support Analyst, Senior Performance Consultant, and Performance Consultant</p>';
+    bar += '<ul>'
+    bar += '<li><span class="text-primary font-weight-bold"></li>';
+    bar += '<li><span class="text-success font-weight-bold"></li>';
+    bar += '<li><span class="text-warning font-weight-bold"></li>';
+    bar += '<li><span class="text-dark font-weight-bold"></li>';
     bar += '</ul>';
     bar += '</div><!--End card card-body-->';
     bar += '</div><!--Collapsed Container-->';

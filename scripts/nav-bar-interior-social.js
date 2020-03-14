@@ -155,6 +155,11 @@ $(function () {
     bar += '</div>';
     bar += '</li>';
 
+    
+    bar += '<li class="nav-item inactive">';
+    bar += '<a class="nav-link text-wrap" href="../permissions.htm">DNA User Permissions<span class="sr-only"></span></a>';
+    bar += '</li>';
+
     bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="https://v9-docs.apps.dealer.com/#/" target="_blank">V9 Widget Documentation<span class="sr-only"></span></a>';
     bar += '</li>';
