@@ -29,7 +29,7 @@ $(function () {
     bar += '<a class="dropdown-item" href="../managed-content-creative-package/jaguar.htm">Jaguar</a>';
     bar += '<a class="dropdown-item" href="../managed-content-creative-package/kia.htm">Kia</a>';
     bar += '<a class="dropdown-item" href="../managed-content-creative-package/landrover.htm">Land Rover</a>';
-    bar += '<a class="dropdown-item" href="../managed-content-creative-package/linoln.htm">Lincoln</a>';
+    bar += '<a class="dropdown-item" href="../managed-content-creative-package/lincoln.htm">Lincoln</a>';
     bar += '<a class="dropdown-item" href="../managed-content-creative-package/lexus.htm">Lexus</a>';
     bar += '<a class="dropdown-item" href="../managed-content-creative-package/mazda.htm">Mazda</a>';
     bar += '<a class="dropdown-item" href="../managed-content-creative-package/mercedes.htm">Mercedes</a>';
