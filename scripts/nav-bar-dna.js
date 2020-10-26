@@ -10,6 +10,12 @@ $(function () {
     bar += '<a class="nav-link text-wrap" href="./cc-products.htm">CC Products<span class="sr-only"></span></a>';
     bar += '</li>';
 
+    bar += '<li class="nav-item inactive">';
+    bar += '<a class="nav-link text-wrap" href="./brands.htm">OEM Brands<span class="sr-only"></span></a>';
+    bar += '</li>';
+
+    /*
+
     bar += '<li class="nav-item inactive dropdown">';
     bar += '<a class="nav-link text-wrap dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
     bar += 'Managed Content & Creative Package';
@@ -154,7 +160,7 @@ $(function () {
     bar += '<a class="dropdown-item" href="./website-package/volvo.htm">Volvo</a>';
     bar += '</div>';
     bar += '</li>';
-
+*/
     bar += '<li class="nav-item inactive">';
     bar += '<a class="nav-link text-wrap" href="./permissions.htm">DNA User Permissions<span class="sr-only"></span></a>';
     bar += '</li>';
