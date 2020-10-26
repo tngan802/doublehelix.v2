@@ -11,7 +11,7 @@ $(function () {
     bar += '</li>';
 
     bar += '<li class="nav-item inactive">';
-    bar += '<a class="nav-link text-wrap" href="./brands.htm">OEM Brands<span class="sr-only"></span></a>';
+    bar += '<a class="nav-link text-wrap" href="./oem-brands.htm">OEM Brands<span class="sr-only"></span></a>';
     bar += '</li>';
 
     /*
